@@ -1,0 +1,38 @@
+{
+  "name": "Obito-Bot-MD",
+  "website": "https://github.com/",
+  "description": "مــرحـبـا بــك فــي اوبيتو بــوت",
+  "repository": "https://github.com/",
+  "logo": "https://telegra.ph/file/278d4552ebe00f5d279b5.jpg",
+  "success_url": "https://github.com/",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
